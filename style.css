@@ -1,0 +1,127 @@
+
+body {
+    font-family: 'times new roman', cursive, sans-serif;
+    background-color: #ffe6f2;
+    color: #ff69b4;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #ffb6c1;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    border-bottom: 2px solid #ff69b4;
+    font-size: larger;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: -webkit-inline-flex;
+    gap: 50px;
+}
+nav ul :hover {
+    color: violet;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+footer {
+    background-color: #ffb6c1;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    border-top: 2px solid #ff69b4;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+    nav ul li {
+        margin: 0.5rem 0;
+    }
+
+    .container{
+        max-width: 85%;
+        margin: 20px auto;
+      
+    }
+
+    .container .title{
+        font-size: 25px;
+        background-color:pink;
+        color: white;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        text-align: center;
+        padding: 15px;
+      
+    }
+
+    .container .image-container{
+      columns:3 250px;
+      gap:15px ;
+
+    }
+
+    .container .image-container img{
+        margin-bottom: 10px;
+        border-radius: 5px;
+        width: 100%;
+    }
+    
+    .card-grid {
+        display: grid;
+        gap: 20px;
+        padding: 20px;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+    
+    .card {
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        text-align: center;
+        transition: transform 0.2s;
+
+    }
+    
+    .card img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .card h3 {
+        margin: 15px 0 10px;
+        font-size: 1.2em;
+    }
+    
+    .card p {
+        padding: 0 15px 15px;
+        font-size: 1em;
+        color: #666;
+    }
+    
+    .card:hover {
+        transform: translateY(-10px);
+    }
+    
+   
